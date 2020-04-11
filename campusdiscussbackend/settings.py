@@ -50,6 +50,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
+    'users.apps.UsersConfig',
+    'comments.apps.CommentsConfig',
+    'duties.apps.DutiesConfig',
+    'streams.apps.StreamsConfig',
+    'posts.apps.PostsConfig',
+    'bookmark.apps.BookmarkConfig'
 ]
 
 MIDDLEWARE = [
